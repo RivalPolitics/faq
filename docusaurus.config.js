@@ -42,18 +42,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: "all",
-            copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
-            createFeedItems: async (params) => {
-              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
-              return defaultCreateFeedItems({
-                // keep only the 10 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 10),
-                ...rest,
-              });
-            },
-          },
+          sortPosts: "descending",
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
+          blogTitle: "Последние новости",
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           onInlineTags: "warn",
@@ -98,33 +90,38 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,
       },
+      blog: {
+        sidebar: {
+          groupByYear: false,
+        },
+      },
       navbar: {
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
         },
         items: [
+          //{
+          //  type: "localeDropdown",
+          //  position: "left",
+          //},
           {
-            type: "localeDropdown",
-            position: "left",
+            type: "html",
+            position: "right",
+            value:
+              '<a class="navbar__item navbar__link" href="/docs/design">Дизайн-документ <i class="fa-nav fa-solid fa-compass-drafting"></i></a>',
           },
           {
             type: "html",
             position: "right",
             value:
-              '<a class="navbar__item navbar__link" href="/docs/draft">Драфт <i class="fa-nav fa-solid fa-compass-drafting"></i></a>',
+              '<a class="navbar__item navbar__link" href="/blog">Блог <i class="fa-nav fa-solid fa-pen-nib"></i></a>',
           },
           {
             type: "html",
             position: "right",
             value:
-              '<a class="navbar__item navbar__link" href="/docs/design">Дизайн-документ <i class="fa-nav fa-solid fa-pen-nib"></i></a>',
-          },
-          {
-            type: "html",
-            position: "right",
-            value:
-              '<a class="navbar__item navbar__link" href="/docs/roadmap">Роадмап проекта <i class="fa-nav fa-solid fa-map-location"></i></a> <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">new</span>',
+              '<a class="navbar__item navbar__link" href="/docs/roadmap">Роадмап проекта <i class="fa-nav fa-solid fa-map-location"></i></a> <span class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 disable-mobile">new</span>',
           },
         ],
       },

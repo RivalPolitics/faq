@@ -12,13 +12,13 @@ export default function BlogLayout(props) {
           <BlogSidebar sidebar={sidebar} />
           <main
             className={clsx("col", {
-              "col--7": hasSidebar,
-              "col--9 col--offset-1": !hasSidebar,
+              "col--9": hasSidebar,
+              "col--12 col--offset-1": !hasSidebar,
             })}
           >
             {children}
           </main>
-          {toc && <div className="col col--2">{toc}</div>}
+          {false && <div className="col col--2">{toc}</div>}
         </div>
       </div>
     </Layout>

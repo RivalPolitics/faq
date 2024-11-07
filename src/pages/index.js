@@ -69,6 +69,79 @@ export default function Home() {
             </button>
           </div>
         </div>
+
+        <div class="mb-[80px] mt-[80px] grid grid-cols-1 gap-10 lg:grid-cols-3 ml-[20px] mr-[20px] sm:mr-[50px] sm:ml-[50px]">
+          <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl">
+            <img
+              src="/img/microgoverments/bg.png"
+              alt="bg"
+              class="absolute inset-0 h-full w-full object-cover object-center"
+            />
+            <div class="absolute inset-0 bg-black/30"></div>
+            <div className="flex align-middle justify-center">
+              <img
+                src="/img/microgoverments/microgoverments_logo.svg"
+                alt="bg"
+                class="z-[1] w-[190px] mt-[10px] mb-[10px] lg:w-[100px] xl:w-[160px]"
+              />
+            </div>
+            <div class="pl-6 pr-6 pb-6 lg:pl-2 lg:pr-2 relative flex flex-col justify-end">
+              <h4 class="block antialiased tracking-normal text-white font-extrabold xl:text-4xl text-6xl lg:text-2xl text-center">
+                Micro<span className="text-[#00A1DE]">goverments</span>
+              </h4>
+              <p class="block antialiased text-base leading-relaxed text-white my-2 mx-10">
+                Возглавь государство. Будь лидером. Сражайся.
+                Полу-автоматическая ВПИ на базе сайта.
+              </p>
+              <a
+                class="mx-10 mb-3 mt-6 transition bg-white hover:bg-slate-700 hover:text-slate-100 text-blue-500 font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto"
+                href="docs/microgovernments"
+              >
+                Узнать больше <i class="fa-solid fa-chess-knight ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="opacity-60 border-solid border-slate-300 relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 relative grid min-h-[30rem] items-end overflow-hidden rounded-xl">
+            <div class="absolute inset-0 bg-white"></div>
+            <div className="flex align-middle justify-center">
+              <i class="z-[1] fa-solid fa-city bg-gradient-to-r from-blue-600  to-indigo-400 inline-block text-transparent bg-clip-text text-[100px]"></i>
+            </div>
+            <div class="pl-6 pr-6 pb-6 lg:pl-2 lg:pr-2 relative flex flex-col justify-end">
+              <h4 class="block antialiased tracking-normal text-white font-extrabold xl:text-4xl text-6xl lg:text-2xl text-center">
+                <span className="bg-gradient-to-r from-blue-600  to-indigo-400 inline-block text-transparent bg-clip-text">
+                  Rival Politics Game
+                </span>
+              </h4>
+              <p class="block antialiased text-base leading-relaxed text-slate-600 my-2 mx-10">
+                Попробуйте себя в роли обычного человека и создайте свою
+                бизнес-империю.
+              </p>
+              <p class="mx-10 mb-3 mt-6 transition bg-white border-solid border-slate-300  text-slate-500 font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto">
+                Скоро
+              </p>
+            </div>
+          </div>
+          <div class="opacity-60 border-solid border-slate-300 relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 relative grid min-h-[30rem] items-end overflow-hidden rounded-xl">
+            <div class="absolute inset-0 bg-white"></div>
+            <div className="flex align-middle justify-center">
+              <i class="z-[1] fa-solid fa-planet-ringed text-amber-600 inline-block text-[100px]"></i>
+            </div>
+            <div class="pl-6 pr-6 pb-6 lg:pl-2 lg:pr-2 relative flex flex-col justify-end">
+              <h4 class="block antialiased tracking-normal text-white font-extrabold xl:text-4xl text-6xl lg:text-2xl text-center">
+                <span className="text-amber-600 inline-block">
+                  Project Missuim
+                </span>
+              </h4>
+              <p class="block antialiased text-base leading-relaxed text-slate-600 my-2 mx-10">
+                Возможно, скоро тут будет больше информации, но пока это просто
+                заглушка.
+              </p>
+              <p class="mx-10 mb-3 mt-6 transition bg-white border-solid border-slate-300  text-slate-500 font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto">
+                В будущем...
+              </p>
+            </div>
+          </div>
+        </div>
       </main>
     </Layout>
   );
