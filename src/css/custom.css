@@ -57,6 +57,54 @@ ol {
   color: rgb(42, 122, 172);
 }
 
+.gt-container .gt-user {
+  display: none!important;
+}
+
+.gt-container .gt-header-controls-tip {
+  display: none!important;
+}
+
+.gt-container .gt-comment-content {
+  padding-top: 0px!important;
+  margin-left: 0.3em!important;
+}
+
+.gt-container .gt-avatar img {
+  border-radius: 9999999px!important;
+}
+
+.gt-comment-admin {
+  border: 1px solid #ff1d25;
+  box-shadow: #ff000029 0 0 20px 3px;
+}
+
+.gt-comment-admin .gt-comment-username {
+  color: #ff1d25!important;
+}
+
+.gt-comment-admin .gt-comment-username::before {
+  content: "★";
+  margin-left: 1px;
+}
+
+.gt-comment {
+  border: 1px solid #dedede!important;
+  border-radius: 10px!important;
+  padding-top: 23px!important;
+  padding-bottom: 23px!important;
+  padding-left: 15px!important;
+  padding-right: 15px!important;
+}
+
+.gt-container .gt-comment-text {
+  display: none!important;
+}
+
+.gt-container .gt-comment-date {
+  font-size: 12px;
+}
+
 .markdown h1 i {
   font-size: 40px;
   color: #2e3134;

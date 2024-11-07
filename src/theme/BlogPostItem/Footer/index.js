@@ -33,13 +33,14 @@ export default function BlogPostItemFooter() {
 
     useEffect(() => {
       const gitalk = new Gitalk({
-        clientID: "Ov23lihB3XEIRzNDe0FZ",
-        clientSecret: "1f2b7c23705fa148478343ed32e4d313193084f9",
+        clientID: process.env.GITALK_CLIENT_ID,
+        clientSecret: process.env.GITALK_CLIENT_SECRET,
         repo: "faq",
         owner: "RivalPolitics",
         admin: ["RivalPolitics"],
         id: metadata.permalink, // Используем уникальный идентификатор для каждого поста
-        distractionFreeMode: false, // Включение простого интерфейса
+        distractionFreeMode: true, // Включение простого интерфейса
+        language: ["ru"],
       });
 
       gitalk.render("gitalk-container");
