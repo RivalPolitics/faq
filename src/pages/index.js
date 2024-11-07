@@ -82,7 +82,7 @@ export default function Home() {
               <img
                 src="/img/microgoverments/microgoverments_logo.svg"
                 alt="bg"
-                class="z-[1] w-[100px] mt-[10px] mb-[10px] lg:w-[100px] xl:w-[160px]"
+                class="z-[1] w-[100px] mt-[10px] mb-[10px] lg:w-[100px] xl:w-[120px]"
               />
             </div>
             <div class="pl-2 pr-2 lg:pl-6 lg:pr-6 pb-6 relative flex flex-col justify-end">
@@ -129,7 +129,7 @@ export default function Home() {
             <div class="pl-6 pr-6 pb-6 lg:pl-2 lg:pr-2 relative flex flex-col justify-end">
               <h4 class="block antialiased tracking-normal text-white font-extrabold xl:text-4xl text-2xl lg:text-2xl text-center">
                 <span className="text-amber-600 inline-block">
-                  Project Missuim
+                  Project Missium
                 </span>
               </h4>
               <p class="mx-2 lg:mx-10 lock antialiased text-base leading-relaxed text-slate-600 my-2">
