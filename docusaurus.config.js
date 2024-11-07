@@ -29,15 +29,7 @@ const config = {
     defaultLocale: "ru",
     locales: ["ru"],
   },
-  plugins: [
-    tailwindPlugin,
-    [
-      "docusaurus2-dotenv",
-      {
-        systemvars: true,
-      },
-    ],
-  ],
+  plugins: [tailwindPlugin],
   presets: [
     [
       "classic",
