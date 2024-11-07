@@ -6,6 +6,7 @@ import EditMetaRow from "@theme/EditMetaRow";
 import TagsListInline from "@theme/TagsListInline";
 import ReadMoreLink from "@theme/BlogPostItem/Footer/ReadMoreLink";
 import { useEffect } from "react";
+import siteConfig from "@generated/docusaurus.config";
 
 import "gitalk/dist/gitalk.css";
 import Gitalk from "gitalk";
@@ -33,8 +34,8 @@ export default function BlogPostItemFooter() {
 
     useEffect(() => {
       const gitalk = new Gitalk({
-        clientID: process.env.GITALK_CLIENT_ID,
-        clientSecret: process.env.GITALK_CLIENT_SECRET,
+        clientID: siteConfig.clientID,
+        clientSecret: siteConfig.clientSecret,
         repo: "faq",
         owner: "RivalPolitics",
         admin: ["RivalPolitics"],

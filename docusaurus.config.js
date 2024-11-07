@@ -15,17 +15,29 @@ const config = {
   title: "Rival Politics Docs",
   tagline: "Добро пожаловать в будущее!",
   favicon: "img/favicon.ico",
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://rival-politics-faq.vercel.app/",
   baseUrl: "/",
   organizationName: "Rival Politics",
-  projectName: "docusaurus",
+  projectName: "rival-politics-docs",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  customFields: {
+    clientID: process.env.GITALK_CLIENT_ID,
+    clientSecret: process.env.GITALK_CLIENT_SECRET,
+  },
   i18n: {
     defaultLocale: "ru",
     locales: ["ru"],
   },
-  plugins: [tailwindPlugin],
+  plugins: [
+    tailwindPlugin,
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
+  ],
   presets: [
     [
       "classic",
