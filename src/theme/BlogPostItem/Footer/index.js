@@ -32,6 +32,8 @@ export default function BlogPostItemFooter() {
   if (isBlogPostPage) {
     const canDisplayEditMetaRow = !!(editUrl || lastUpdatedAt || lastUpdatedBy);
 
+    console.log(siteConfig.clientID, siteConfig.clientSecret, siteConfig);
+
     useEffect(() => {
       const gitalk = new Gitalk({
         clientID: siteConfig.clientID,

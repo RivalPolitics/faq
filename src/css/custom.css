@@ -61,6 +61,14 @@ ol {
   display: none!important;
 }
 
+.gt-comment {
+  margin-bottom: 10px!important;
+}
+
+.gt-container.gt-input-focused:after {
+  background: #00000000!important;
+}
+
 .gt-container .gt-header-controls-tip {
   display: none!important;
 }
@@ -76,7 +84,11 @@ ol {
 
 .gt-comment-admin {
   border: 1px solid #ff1d25;
-  box-shadow: #ff000029 0 0 20px 3px;
+  box-shadow: #ff000013 0 0 20px 3px;
+}
+
+.gt-no-init p {
+  display: none;
 }
 
 .gt-comment-admin .gt-comment-username {
