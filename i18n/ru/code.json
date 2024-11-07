@@ -1,0 +1,32 @@
+{
+  "theme.SearchBar.label": {
+    "message": "Поиск..."
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Показать больше"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Ничего не найдено"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "4Suche {context}"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "5Suche {context}"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Поиск по запросу: {query}"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Введите для поиска..."
+  },
+  "theme.SearchPage.documentsFound.plurals":{
+    "message": "Найдено одно совпадение|Найдено {count} совпадений"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Ничего не найдено..."
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Везде"
+  }
+}
