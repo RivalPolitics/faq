@@ -109,13 +109,13 @@ const config = {
             type: "html",
             position: "right",
             value:
-              '<a class="navbar__item navbar__link" href="/docs/design">Дизайн-документ <i class="fa-nav fa-solid fa-compass-drafting"></i></a>',
+              '<a class="navbar__item navbar__link" href="/blog">Блог <i class="fa-nav fa-solid fa-pen-nib"></i></a>',
           },
           {
             type: "html",
             position: "right",
             value:
-              '<a class="navbar__item navbar__link" href="/blog">Блог <i class="fa-nav fa-solid fa-pen-nib"></i></a>',
+              '<a class="navbar__item navbar__link" href="/docs/design">Дизайн-документ <i class="fa-nav fa-solid fa-compass-drafting"></i></a>',
           },
           {
             type: "html",

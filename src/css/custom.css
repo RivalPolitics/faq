@@ -131,8 +131,27 @@ ol {
   }
 }
 
+@media (max-width: 996px) {
+  .navbar__search-input {
+      width: 2rem !important;
+  }
+
+  .navbar__search-input:focus {
+    width: 9rem !important;
+  }
+
+  .gt-comment-date {
+    display: none;
+  }
+}
+
 .article-blog-above:hover {
   opacity: 1; 
+}
+
+.container-page {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .blog-title-above {

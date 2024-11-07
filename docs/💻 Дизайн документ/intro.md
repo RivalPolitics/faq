@@ -6,4 +6,4 @@ sidebar_custom_props:
   icon: "fa-star"
 ---
 
-design slug
+Добро пожаловать, тут мы опишем всё общее про проект

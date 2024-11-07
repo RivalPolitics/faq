@@ -6,4 +6,4 @@ sidebar_custom_props:
   icon: "fa-star"
 ---
 
-note slug
+Тут про microgoverments
