@@ -20,8 +20,6 @@ export default function DocSidebarItemLink({
 
   const icon = item?.customProps?.icon;
 
-  console.log(item);
-
   return (
     <li
       className={clsx(

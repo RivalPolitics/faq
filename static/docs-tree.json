@@ -1,0 +1,277 @@
+[
+  {
+    "type": "folder",
+    "title": "Rival Politics",
+    "children": []
+  },
+  {
+    "type": "folder",
+    "title": "🌍 Microgovernments",
+    "children": [
+      {
+        "type": "folder",
+        "title": "⚙️ Механика",
+        "children": [
+          {
+            "type": "folder",
+            "title": "🎲 События",
+            "children": [
+              {
+                "type": "file",
+                "title": "РП события",
+                "url": "/docs/microgovernments/mechanics/events/rp"
+              },
+              {
+                "type": "file",
+                "title": "Системные случайные события",
+                "url": "/docs/microgovernments/mechanics/events/system"
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "title": "Игровое время",
+            "url": "/docs/microgovernments/mechanics/time"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "title": "👤 Пользователь",
+        "children": [
+          {
+            "type": "folder",
+            "title": "💎 Вип-статус",
+            "children": [
+              {
+                "type": "file",
+                "title": "Информация о VIP-статусе",
+                "url": "/docs/microgovernments/users/vip/info"
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "title": "📜 История игрока",
+            "children": [
+              {
+                "type": "file",
+                "title": "История игр",
+                "url": "/docs/microgovernments/users/history/games"
+              },
+              {
+                "type": "file",
+                "title": "Статистика",
+                "url": "/docs/microgovernments/users/history/statistics"
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "title": "Настройки",
+            "url": "/docs/microgovernments/users/settings"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "title": "🕹️ Игровой процесс",
+        "children": [
+          {
+            "type": "folder",
+            "title": "⚔️ Война и конфликты",
+            "children": [
+              {
+                "type": "file",
+                "title": "Виды конфликтов",
+                "url": "/docs/microgovernments/game/war/types"
+              },
+              {
+                "type": "file",
+                "title": "Виды конфликтов",
+                "url": "/docs/microgovernments/game/war/process"
+              },
+              {
+                "type": "file",
+                "title": "Война",
+                "url": "/docs/microgovernments/game/war/war"
+              },
+              {
+                "type": "file",
+                "title": "Оккупация и мирные договоры",
+                "url": "/docs/microgovernments/game/war/occupation"
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "title": "🏛️ Государства",
+            "children": [
+              {
+                "type": "folder",
+                "title": "📊 Экономика",
+                "children": [
+                  {
+                    "type": "file",
+                    "title": "Военная экономика",
+                    "url": "/docs/microgovernments/game/states/economy/military"
+                  },
+                  {
+                    "type": "file",
+                    "title": "Мирная экономика",
+                    "url": "/docs/microgovernments/game/states/economy/peaceful"
+                  },
+                  {
+                    "type": "file",
+                    "title": "Политическая экономика",
+                    "url": "/docs/microgovernments/game/states/economy/political"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "title": "🗳️ Политика",
+                "children": [
+                  {
+                    "type": "file",
+                    "title": "Внешняя политика",
+                    "url": "/docs/microgovernments/game/states/politics/foreign"
+                  },
+                  {
+                    "type": "file",
+                    "title": "Внутренняя политика",
+                    "url": "/docs/microgovernments/game/states/politics/internal"
+                  }
+                ]
+              },
+              {
+                "type": "file",
+                "title": "RP: Отыгрыш государства",
+                "url": "/docs/microgovernments/game/states/rp"
+              },
+              {
+                "type": "file",
+                "title": "Общее управление государством",
+                "url": "/docs/microgovernments/game/states/management"
+              },
+              {
+                "type": "file",
+                "title": "Создание государства",
+                "url": "/docs/microgovernments/game/states/create"
+              },
+              {
+                "type": "file",
+                "title": "Типы государства",
+                "url": "/docs/microgovernments/game/states/types"
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "title": "🗺️ Карта",
+            "children": [
+              {
+                "type": "file",
+                "title": "Взаимодействие",
+                "url": "/docs/microgovernments/game/map/use"
+              },
+              {
+                "type": "file",
+                "title": "Настройка карты",
+                "url": "/docs/microgovernments/game/map/settings"
+              },
+              {
+                "type": "file",
+                "title": "Обзор карты",
+                "url": "/docs/microgovernments/game/map/overview"
+              },
+              {
+                "type": "file",
+                "title": "Статусы и инфографика",
+                "url": "/docs/microgovernments/game/map/statuses"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "title": "🤝 РП и Дипломатия",
+        "children": [
+          {
+            "type": "file",
+            "title": "Переговоры",
+            "url": "/docs/microgovernments/rp/negotiations"
+          },
+          {
+            "type": "file",
+            "title": "Положение РП",
+            "url": "/docs/microgovernments/rp/rules"
+          },
+          {
+            "type": "file",
+            "title": "РП чат и его правила",
+            "url": "/docs/microgovernments/rp/chat"
+          },
+          {
+            "type": "file",
+            "title": "Формат соглашений",
+            "url": "/docs/microgovernments/rp/agreements"
+          },
+          {
+            "type": "file",
+            "title": "Шпионаж",
+            "url": "/docs/microgovernments/rp/espionage"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "title": "Частые вопросы",
+        "url": "/docs/microgovernments/faq"
+      },
+      {
+        "type": "file",
+        "title": "Интерфейс и взаимодействия",
+        "url": "/docs/microgovernments/interface"
+      },
+      {
+        "type": "file",
+        "title": "Сообщество и модерация",
+        "url": "/docs/microgovernments/community"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "💻 Дизайн документ",
+    "children": [
+      {
+        "type": "file",
+        "title": "Перед началом",
+        "url": "/docs/design"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "📝 Драфт",
+    "children": [
+      {
+        "type": "file",
+        "title": "Перед началом",
+        "url": "/docs/draft"
+      },
+      {
+        "type": "file",
+        "title": "Регистрация пользователя",
+        "url": "/docs/draft/user_registration"
+      }
+    ]
+  },
+  {
+    "type": "file",
+    "title": "Роадмап проекта",
+    "url": "/docs/roadmap"
+  }
+]

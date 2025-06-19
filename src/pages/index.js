@@ -3,6 +3,7 @@ import Layout from "@theme/Layout";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <Layout title={`${siteConfig.title}`} className="lg:px-8">
       <main className="lg:px-8 container-page">

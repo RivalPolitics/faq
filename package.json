@@ -11,13 +11,15 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "doc:tree:generate": "node scripts/generate-docs-tree.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.6.0",
     "@docusaurus/preset-classic": "3.6.0",
     "@docusaurus/theme-search-algolia": "^3.6.0",
     "@easyops-cn/docusaurus-search-local": "^0.45.0",
+    "@floating-ui/react": "^0.27.12",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "docusaurus2-dotenv": "^1.4.0",

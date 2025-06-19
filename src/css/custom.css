@@ -13,12 +13,13 @@
  * work well for content-centric websites.
  */
 
- @font-face {
+@font-face {
   font-family: Inter var;
   font-weight: 100 900;
   font-display: block;
   font-style: normal;
-  font-named-instance:"Regular";src: url(/static/fonts/InterVariable.woff2) format("woff2")
+  font-named-instance: "Regular";
+  src: url(/static/fonts/InterVariable.woff2) format("woff2")
 }
 
 @font-face {
@@ -26,10 +27,11 @@
   font-weight: 100 900;
   font-display: block;
   font-style: italic;
-  font-named-instance:"Italic";src: url(/static/fonts/InterVariable.woff2) format("woff2")
+  font-named-instance: "Italic";
+  src: url(/static/fonts/InterVariable.woff2) format("woff2")
 }
 
-.markdown li + li {
+.markdown li+li {
   margin-top: 0px;
 }
 
@@ -38,13 +40,13 @@ ul {
 }
 
 .roadmap-icon {
-  color: white!important;
-  font-size: 12px!important;
+  color: white !important;
+  font-size: 12px !important;
 }
 
 /* to remove bullets from an ordered list */
 ol {
-  list-style:none; 
+  list-style: none;
 }
 
 .markdown i {
@@ -58,28 +60,28 @@ ol {
 }
 
 .gt-container .gt-user {
-  display: none!important;
+  display: none !important;
 }
 
 .gt-comment {
-  margin-bottom: 10px!important;
+  margin-bottom: 10px !important;
 }
 
 .gt-container.gt-input-focused:after {
-  background: #00000000!important;
+  background: #00000000 !important;
 }
 
 .gt-container .gt-header-controls-tip {
-  display: none!important;
+  display: none !important;
 }
 
 .gt-container .gt-comment-content {
-  padding-top: 0px!important;
-  margin-left: 0.3em!important;
+  padding-top: 0px !important;
+  margin-left: 0.3em !important;
 }
 
 .gt-container .gt-avatar img {
-  border-radius: 9999999px!important;
+  border-radius: 9999999px !important;
 }
 
 .gt-comment-admin {
@@ -88,8 +90,8 @@ ol {
 }
 
 .blog-date {
-  font-size: 13px!important;
-  color: #6b6b6b!important;
+  font-size: 13px !important;
+  color: #6b6b6b !important;
 }
 
 .avatar__photo {
@@ -104,9 +106,9 @@ ol {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 15px;
-  margin-bottom: 1rem!important;
+  margin-bottom: 1rem !important;
   background-color: white;
-  background: linear-gradient( rgb(53 120 229 / 5%) 0%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(rgb(53 120 229 / 5%) 0%, rgba(0, 212, 255, 0) 100%);
 }
 
 .margin-bottom--xl.article-blog-above {
@@ -116,15 +118,17 @@ ol {
 
 @media (max-width: 996px) {
   .menu__list .navbar__item {
-      display: inherit!important;;
+    display: inherit !important;
+    ;
   }
 }
 
 @media (max-width: 996px) {
   .navbar__search-input {
-      width: initial!important;
+    width: initial !important;
   }
 }
+
 @media (max-width: 996px) {
   .disable-mobile {
     display: none;
@@ -133,7 +137,7 @@ ol {
 
 @media (max-width: 996px) {
   .navbar__search-input {
-      width: 2rem !important;
+    width: 2rem !important;
   }
 
   .navbar__search-input:focus {
@@ -146,7 +150,7 @@ ol {
 }
 
 .article-blog-above:hover {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .container-page {
@@ -163,7 +167,7 @@ ol {
 }
 
 .gt-comment-admin .gt-comment-username {
-  color: #ff1d25!important;
+  color: #ff1d25 !important;
 }
 
 .gt-comment-admin .gt-comment-username::before {
@@ -172,16 +176,16 @@ ol {
 }
 
 .gt-comment {
-  border: 1px solid #dedede!important;
-  border-radius: 10px!important;
-  padding-top: 23px!important;
-  padding-bottom: 23px!important;
-  padding-left: 15px!important;
-  padding-right: 15px!important;
+  border: 1px solid #dedede !important;
+  border-radius: 10px !important;
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
 }
 
 .gt-container .gt-comment-text {
-  display: none!important;
+  display: none !important;
 }
 
 .gt-container .gt-comment-date {
@@ -205,17 +209,20 @@ ol {
   color: rgb(51 65 85);
 }
 
-a:link { 
-  text-decoration: none; 
-} 
-a:visited { 
-  text-decoration: none; 
-} 
-a:hover { 
-  text-decoration: none; 
-} 
-a:active { 
-  text-decoration: none; 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 button {
@@ -223,7 +230,7 @@ button {
 }
 
 a:focus {
-  box-shadow: none!important;
+  box-shadow: none !important;
 }
 
 .fa-nav {
@@ -237,15 +244,15 @@ a:focus {
 }
 
 html {
-  background-color: #f6f6f6!important;
+  background-color: #f6f6f6 !important;
 }
 
 .navbar {
-  padding: 0!important;
+  padding: 0 !important;
 }
 
 .navbar__brand {
-  margin-right: 0rem!important;
+  margin-right: 0rem !important;
 }
 
 .navbar__item {
@@ -264,11 +271,11 @@ html {
 }
 
 .menu__link:hover {
-  color: rgb(51 65 85)!important;
+  color: rgb(51 65 85) !important;
 }
 
 .menu__link--active {
-  opacity: 1!important;
+  opacity: 1 !important;
 }
 
 .navbar__link {
@@ -295,7 +302,13 @@ html {
   opacity: 0.4;
 }
 
-:host, html {
+span.breadcrumbs__link {
+  color: #333 !important;
+  font-weight: 700 !important;
+}
+
+:host,
+html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   tab-size: 4;
@@ -303,6 +316,24 @@ html {
   font-feature-settings: normal;
   font-variation-settings: normal;
   -webkit-tap-highlight-color: transparent;
+}
+
+.button {
+  font-size: 13px;
+  line-height: 1.625;
+  color: white;
+  background-color: #3b82f6;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #3a74d1;
 }
 
 /* You can override the default Infima variables here. */
